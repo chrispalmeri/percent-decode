@@ -1,6 +1,6 @@
 {
   "name": "percent-decode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Decode a percent-encoded string according to the URL spec.",
   "keywords": [
     "decodeuricomponent"

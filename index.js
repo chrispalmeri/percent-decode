@@ -48,7 +48,7 @@ function percentDecode(input) {
 	for (let i = 0; i < bytes.length; i += 1) {
 		if (
 			bytes[i] !== PERCENT
-			|| bytes.length < i + 2
+			|| bytes.length <= i + 2
 			|| hexInvalid(bytes[i + 1])
 			|| hexInvalid(bytes[i + 2])
 		) {
